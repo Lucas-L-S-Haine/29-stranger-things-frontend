@@ -9,15 +9,15 @@ const getRealityClass = (hereIsTheUpsideDownWorld) => (
 const TIMEOUT = 30000;
 
 const {
-  REACT_APP_HAWKINGS_URL = 'http://localhost:3002',
-  REACT_APP_HAWKINGS_TIMEOUT = TIMEOUT,
+  REACT_APP_HAWKINS_URL = 'http://localhost:3002',
+  REACT_APP_HAWKINS_TIMEOUT = TIMEOUT,
   REACT_APP_UPSIDEDOWN_URL = 'http://localhost:3003',
   REACT_APP_UPSIDEDOWN_TIMEOUT = TIMEOUT,
 } = process.env;
 
 const strangerThingsConfig = {
-  url: REACT_APP_HAWKINGS_URL,
-  timeout: REACT_APP_HAWKINGS_TIMEOUT,
+  url: REACT_APP_HAWKINS_URL,
+  timeout: REACT_APP_HAWKINS_TIMEOUT,
 };
 
 const upsideDownConfig = {
